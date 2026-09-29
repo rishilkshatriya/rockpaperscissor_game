@@ -60,7 +60,8 @@ def name():
 window = tk.Tk()
 window.title("Rock Paper Scissor")
 window.geometry(f"{width}x{height}")
-window.resizable(False , False )
+window.maxsize(1280,720)
+window.minsize(200,200)
 
 
 title_label = tk.Label( text="Rock Paper Scissor", font=("Bell MT", 34, "bold") , highlightthickness = 0 )
