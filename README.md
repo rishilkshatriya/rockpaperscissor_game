@@ -19,14 +19,9 @@ No extra packages need to be installed.
 
 ## How to Run
 
-1. Save the script as `rock_paper_scissor.py`
-2. Open a terminal in that folder
-3. Run:
-   ```
-   python rock_paper_scissor.py
-   ```
-4. Click **START** on the opening screen to begin playing
-
+1. Clone the Repository: git clone https://github.com/rishilkshatriya/rockpaperscissor_game.git
+2. Navigate to the directory cd rockpaperscissor_game
+3. Run the python program rockpaperscissor_game.py
 ## How It Works
 
 - **Start screen:** A `Frame` covers the entire window when the program launches. Since it's created last in the layout, it sits on top of the game screen and blocks clicks to it. Pressing **START** calls `start_game()`, which hides this frame (`place_forget()`) and reveals the game underneath.
