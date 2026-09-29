@@ -53,8 +53,7 @@ def start_game():
 def quit_game ():
     window.destroy()
 
-def name():
-    name = input("Enter your name : ")
+
 
  
 window = tk.Tk()
